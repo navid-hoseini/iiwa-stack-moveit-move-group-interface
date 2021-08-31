@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf101651-94bf-470a-ae41-8b9d44ec261f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/iiwa_stack/iiwa_control/launch/iiwa_control.launch" beforeDir="false" afterPath="$PROJECT_DIR$/src/iiwa_stack/iiwa_control/launch/iiwa_control.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iiwa_stack/iiwa_control/src/iiwa_sunrise.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/iiwa_stack/iiwa_control/src/iiwa_sunrise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iiwa_stack/iiwa_gazebo/launch/iiwa_gazebo.launch" beforeDir="false" afterPath="$PROJECT_DIR$/src/iiwa_stack/iiwa_gazebo/launch/iiwa_gazebo.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iiwa_stack/iiwa_moveit/launch/demo.launch" beforeDir="false" afterPath="$PROJECT_DIR$/src/iiwa_stack/iiwa_moveit/launch/demo.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iiwa_stack/iiwa_moveit/launch/moveit_planning_execution.launch" beforeDir="false" afterPath="$PROJECT_DIR$/src/iiwa_stack/iiwa_moveit/launch/moveit_planning_execution.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iiwa_stack/iiwa_moveit/launch/planning_context.launch" beforeDir="false" afterPath="$PROJECT_DIR$/src/iiwa_stack/iiwa_moveit/launch/planning_context.launch" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/interpolator/interp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1968">
+              <caret line="125" column="29" selection-start-line="125" selection-start-column="29" selection-end-line="125" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach_5_fixed_s/eval_server5_interp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach_5_fixed_s/server5_fixed_s.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1808">
+              <caret line="115" column="32" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach_5_fixed_s/eval_client5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/interface_to_moveit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="191" column="26" selection-start-line="191" selection-start-column="26" selection-end-line="191" selection-end-column="26" />
+              <folding>
+                <element signature="e#199#209#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach_5_fixed_s/client5_fixed_s.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5088">
+              <caret line="320" column="23" selection-start-line="320" selection-start-column="23" selection-end-line="320" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>def get</find>
+      <find># toco</find>
+      <find>.get_comm</find>
+      <find>chosen</find>
+      <find>inter</find>
+      <find>execute_actio</find>
+      <find>def execu</find>
+      <find>delta_ee = np.</find>
+      <find>self.inter</find>
+      <find>execute_motiom</find>
+      <find>def execute_ac</find>
+      <find>interpol</find>
+      <find>.txt</find>
+      <find>reach5_fixed_sg_no_orient_r3</find>
+      <find>supresss</find>
+      <find>herddp</find>
+      <find>set_ee</find>
+      <find>home_</find>
+      <find>home</find>
+      <find>moving to</find>
+      <find>def sample</find>
+      <find>interpo</find>
+      <find>interpolator</find>
+      <find>interpolator(</find>
+      <find>def get_com</find>
+      <find>def prepa</find>
+      <find>set_targ</find>
+      <find>'mj_ac</find>
+      <find>euler2</find>
+      <find>supress</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>:.</replace>
+      <replace>self.agent.</replace>
+      <replace>agent_</replace>
+      <replace>agent_.env.</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/iiwa_stack" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_train_server.launch" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_train_client.launch" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/rl_agent/ddpg/noise.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/rl_agent/utils/run_params_util.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/rl_agent/ddpg/ddpg_.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach/moveit_interface_client.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach/train_server.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach2/euler_quaternion_convert.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach2/__init__.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach2/log_moveit_data.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach2/log_moveit_data_1.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/log_moveit_data.launch" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach2/train_server2.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_train2_client.launch" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_train2_server.launch" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach2/prep_train_data_2.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/rl_agent/kuka_env.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/srv/TrainReach2.srv" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/rl_agent/utils/net_param_manipulation.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach2/moveit_interface_client2_3.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach2/train_server2_3.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/rl_agent/baselines/misc_utils.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_train3_client.launch" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_train3_server.launch" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach3_just_x/train_server3_x.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_train4_server.launch" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach4/moveit_interface_client4.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach4/train_server4.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach3_just_x/moveit_interface_client3_x.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_train4_client.launch" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach4_cartesian_path/train_server4.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/rl_agent/her_ddpg.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach_5_fixed_s,g/server5_fixed_sg.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach_5_fixed_s,g/client5_fixed_sg.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/interface_to_moveit.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach_5_fixed_s,g/eval_server5.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/picknmove_control_service.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_train5_client.launch" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_train5_server.launch" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_eval5_client.launch" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_eval5_server.launch" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach_5_fixed_s/eval_server5.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach_5_fixed_s/eval_client5.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/interpolator/interp.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_eval5_server_interp.launch" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach_5_fixed_s/server5_fixed_s.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/interpolator/pid.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach_5_fixed_s/client5_fixed_s.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach_5_fixed_s/eval_server5_interp.py" />
+        <option value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/interpolator/interp.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="49" />
+    <option name="y" value="27" />
+    <option name="width" value="615" />
+    <option name="height" value="485" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="iiwa_stack_ws" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iiwa_stack_ws" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iiwa_stack_ws" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iiwa_stack_ws" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iiwa_stack_ws" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iiwa_stack_ws" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="iiwa_stack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iiwa_stack_ws" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iiwa_stack_ws" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="iiwa_stack" type="462c0819:PsiDirectoryNode" />
+              <item name="iiwa_picknmove_control" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iiwa_stack_ws" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iiwa_stack_ws" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="iiwa_stack" type="462c0819:PsiDirectoryNode" />
+              <item name="iiwa_picknmove_control" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python_ws/hippo-master" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts" />
+      <recent name="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach" />
+      <recent name="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/rl_agent/utils" />
+      <recent name="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/srv_demo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch" />
+      <recent name="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach_5_fixed_s" />
+      <recent name="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach_5_fixed_s,g" />
+      <recent name="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach4" />
+      <recent name="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach3_just_x" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.pid">
+    <configuration name="interface_to_moveit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="iiwa_stack_ws" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/interface_to_moveit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pid" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="iiwa_stack_ws" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/interpolator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/interpolator/pid.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pknmv_ctrl_service" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="iiwa_stack_ws" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/picknmove_control_service.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prep_train_data_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="iiwa_stack_ws" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach2/prep_train_data_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_server2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="iiwa_stack_ws" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach2/train_server2_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.pid" />
+        <item itemvalue="Python.interface_to_moveit" />
+        <item itemvalue="Python.pknmv_ctrl_service" />
+        <item itemvalue="Python.train_server2" />
+        <item itemvalue="Python.prep_train_data_2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf101651-94bf-470a-ae41-8b9d44ec261f" name="Default Changelist" comment="" />
+      <created>1605846218180</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605846218180</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="49" y="27" width="1231" height="997" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23884298" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32951945" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4679634" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32036614" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32951945" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33066362" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32951945" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.32951945" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach/moveit_interface_client.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach2/euler_quaternion_convert.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach2/prep_train_data_2.py</url>
+          <line>183</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach2/prep_train_data_2.py</url>
+          <line>159</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach2/prep_train_data_2.py</url>
+          <line>158</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach2/train_server2_3.py</url>
+          <line>649</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach2/train_server2_3.py</url>
+          <line>222</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/picknmove_control_service.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/interpolator/pid.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>measured_vals</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>np.concatenate((sins.reshape(-1, 1), coss.reshape(-1, 1)), axis=1)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>env.convert_picknmove_to_kuka_coord(np.array([0.4, 0.1, 0.13]), do_translate=False)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>env.convert_picknmove_to_kuka_coord(np.array([0.4, 0.1, 0.13]))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>env.convert_picknmove_to_kuka_coord(np.array([0.14, 0.1, 0.13]))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>env.convert_kuka_to_picknmove_coord(np.array([0.17, 0.27, -0.13]))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>env</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>totalvec[0:n].reshape(self.shape)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>np.array([len(x)])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_train2_server.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_train_server.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach2/euler_quaternion_convert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/rl_agent/kuka_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach2/prep_train_data_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <element signature="e#222#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach/train_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="334" column="31" lean-forward="true" selection-start-line="334" selection-start-column="31" selection-end-line="334" selection-end-column="31" />
+          <folding>
+            <element signature="e#102#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.virtualenvs/virtual-py3/lib/python3.6/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="1903" column="4" selection-start-line="1903" selection-start-column="4" selection-end-line="1903" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/rl_agent/ddpg/ddpg_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="183" column="50" selection-start-line="183" selection-start-column="50" selection-end-line="183" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/melodic/lib/python2.7/dist-packages/tf/transformations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="1020" column="26" lean-forward="true" selection-start-line="1020" selection-start-column="26" selection-end-line="1020" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach/moveit_interface_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="187" column="20" lean-forward="true" selection-start-line="187" selection-start-column="20" selection-end-line="187" selection-end-column="20" />
+          <folding>
+            <element signature="e#199#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/srv_demo/srv_service_array_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+          <folding>
+            <element signature="e#24#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/rl_agent/utils/net_param_manipulation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach2/train_server2_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="592" column="27" lean-forward="true" selection-start-line="592" selection-start-column="27" selection-end-line="592" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/rl_agent/ddpg/replay_buffer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="199" lean-forward="true" selection-start-line="199" selection-end-line="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/rl_agent/baselines/misc_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_train3_server.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_train3_client.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="74" selection-start-line="1" selection-start-column="74" selection-end-line="1" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/rl_agent/utils/running_mean_std.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/iiwa_picknmove_control/catkin_generated/installspace/picknmove_control_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="128" column="35" selection-start-line="128" selection-start-column="35" selection-end-line="128" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/melodic/lib/python2.7/dist-packages/moveit_msgs/msg/_RobotTrajectory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2070">
+          <caret line="110" column="15" lean-forward="true" selection-start-line="110" selection-start-column="15" selection-end-line="110" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_train4_server.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/rl_agent/ddpg/noise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="157" column="20" lean-forward="true" selection-start-line="157" selection-start-column="20" selection-end-line="157" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/melodic/lib/python2.7/dist-packages/moveit_commander/move_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="521" column="8" selection-start-line="521" selection-start-column="8" selection-end-line="521" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach3_just_x/train_server3_x.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="565" selection-start-line="565" selection-end-line="565" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_train4_client.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="45" lean-forward="true" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach4_cartesian_path/train_server4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.virtualenvs/virtual-py3/lib/python3.6/site-packages/scipy/spatial/transform/rotation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="413" column="19" selection-start-line="413" selection-start-column="13" selection-end-line="413" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/srv/MoveitInterface.srv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/melodic/lib/python2.7/dist-packages/geometry_msgs/msg/_Quaternion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/rl_agent/her_ddpg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2272">
+          <caret line="146" column="13" selection-start-line="146" selection-start-column="13" selection-end-line="146" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_moveit/launch/moveit.rviz">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach3_just_x/moveit_interface_client3_x.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="138" column="12" selection-start-line="138" selection-start-column="2" selection-end-line="138" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach2/moveit_interface_client2_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="167" column="15" lean-forward="true" selection-start-line="145" selection-end-line="167" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/srv/TrainReach2.srv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/melodic/lib/python2.7/dist-packages/geometry_msgs/msg/_Pose.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/picknmove_control_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="114" column="49" selection-start-line="114" selection-start-column="49" selection-end-line="114" selection-end-column="49" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#1002#2718#0" />
+            <element signature="e#1002#1140#1" />
+            <element signature="e#1339#1439#0" />
+            <element signature="e#2129#2170#0" />
+            <element signature="e#2765#3130#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_train5_server.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="45" lean-forward="true" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_train5_client.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="57" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_eval5_client.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="86" selection-start-line="1" selection-start-column="86" selection-end-line="1" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_eval5_server.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="86" selection-start-line="1" selection-start-column="86" selection-end-line="1" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach4_cartesian_path/client4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/launch/reach_eval5_server_interp.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="64" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.virtualenvs/virtual-py3/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach_5_fixed_s/eval_server5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="144" column="52" lean-forward="true" selection-start-line="144" selection-start-column="52" selection-end-line="144" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/interpolator/pid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="44" column="56" selection-start-line="44" selection-start-column="56" selection-end-line="44" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/interpolator/interp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1968">
+          <caret line="125" column="29" selection-start-line="125" selection-start-column="29" selection-end-line="125" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach_5_fixed_s/eval_server5_interp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach_5_fixed_s/server5_fixed_s.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1808">
+          <caret line="115" column="32" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach_5_fixed_s/eval_client5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/train_reach_5_fixed_s/client5_fixed_s.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5088">
+          <caret line="320" column="23" selection-start-line="320" selection-start-column="23" selection-end-line="320" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iiwa_stack/iiwa_picknmove_control/scripts/interface_to_moveit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="191" column="26" selection-start-line="191" selection-start-column="26" selection-end-line="191" selection-end-column="26" />
+          <folding>
+            <element signature="e#199#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

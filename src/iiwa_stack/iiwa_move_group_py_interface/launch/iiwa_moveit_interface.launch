@@ -1,0 +1,9 @@
+<launch>
+    <!-- The namespace attribute `ns="/iiwa"` is added below so the node will be run under "/iiwa" namespace. This way the error
+    "Robot semantic description not found. Did you forget to define or remap '/robot_description_semantic'?" will be
+    fixed. See comment [SalvoVirga commented on Oct 4, 2016] from https://github.com/IFL-CAMP/iiwa_stack/issues/34-->
+
+	<node pkg="iiwa_move_group_py_interface" type="interface_to_moveit.py" name="moveit_interface" ns="/iiwa" output="screen"/>
+
+</launch>
+

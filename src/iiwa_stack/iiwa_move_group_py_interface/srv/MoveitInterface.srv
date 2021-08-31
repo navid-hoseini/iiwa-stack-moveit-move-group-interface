@@ -1,0 +1,12 @@
+# This service calls controller network to receive end-effector displacement along x,y,z axes based on input observation
+
+# Service call input (aka request): {EE 3D position, EE 3D linear velocity, obj 3D position in iiwa_link_0}
+float64[3] ku_ee_pos
+float64[3] ku_ee_vel
+float64[3] ku_obj_pos
+
+---
+
+# Service call output (aka response): the amount of displacement along x,y,z axes (i.e dx, dy, dz, grip_open/close) in iiwa_link_0 frame
+float64[4] ku_ee_delta
+

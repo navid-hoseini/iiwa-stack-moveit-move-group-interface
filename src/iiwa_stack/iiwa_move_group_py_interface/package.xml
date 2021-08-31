@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>iiwa_move_group_py_interface</name>
+  <version>0.0.0</version>
+  <description>A package to control simulated kuka iiwa using move group python interface</description>
+  
+  <maintainer email="navid@todo.todo">navid</maintainer>  
+  <license>TODO</license>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>moveit_ros_planning_interface</build_depend>
+  <build_export_depend>rospy</build_export_depend>  
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>moveit_ros_planning_interface</exec_depend>
+
+  <!--The two lines below are required for compiling user defined messages and services-->
+  <build_depend>message_generation</build_depend>
+   <exec_depend>message_runtime</exec_depend>
+  
+</package>

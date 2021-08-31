@@ -1,0 +1,7 @@
+# This file is borrowed from ros/ros_tutorials github repo.:
+# "https://github.com/ros/ros_tutorials/tree/noetic-devel/rospy_tutorials/srv"
+
+int64 a
+int64 b
+---
+int64 sum
