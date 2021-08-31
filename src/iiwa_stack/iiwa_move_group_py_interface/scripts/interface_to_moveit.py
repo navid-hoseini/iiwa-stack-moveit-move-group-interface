@@ -23,7 +23,7 @@ import moveit_msgs.msg
 import geometry_msgs.msg
 from std_msgs.msg import String
 from moveit_commander.conversions import pose_to_list
-from iiwa_picknmove_control.srv import *
+from iiwa_move_group_py_interface.srv import *
 
 
 def main():        
